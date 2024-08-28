@@ -1,0 +1,32 @@
+---
+import Layout from '../layouts/Layout.astro'
+import services from '../data/services.json'
+import Header from '../components/Header.astro'
+---
+
+<Layout title='Muggar'>
+  <Header />
+  <main>
+    <div>Slider</div>
+    <div class='container max-w-[1200px] p-6 mx-auto'>
+      <h1>Servicios</h1>
+      <div class='flex-col gap-8'>
+        {
+          services.data.map((service) => (
+            <div class='rounded-md border-2 border-[#023481]  bg-blue-600 p-6 bg-gradient-to-l from-[#012763] from-0% to-[#023481] to-[100%]'>
+              <img
+                src={service.image}
+                alt={service.title}
+                class='mx-auto h-[100px]'
+              />
+              <h2 class=' font-semibold text-center text-[#00E0F5] mt-2'>
+                {service.title}
+              </h2>
+              <p class='mt-2 text-white'>{service.content}</p>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </main>
+</Layout>

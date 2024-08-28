@@ -1,0 +1,22 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "image": "./images/icon-redes.png",
+            "title": "Soluciones de conectividad y redes",
+            "content": "Asegurar y mejorar el rendimiento de las comunicaciones de la empresa es de gran importancia, tanto para transacciones internas, como con clientes o proveedores, es por eso que apoyamos en los diseños, mejoras e implementaciones de soluciones que ayuden a resolver problemáticas y funcionalidades."
+        },
+        {
+            "id": 2,
+            "image": "./images/icon-consultorias.png",
+            "title": "Consultorias",
+            "content": "Servicios de alto profesionalismo con foco a dar asesorías en la revisión e implementación de normativas, diagnósticos, proyecciones y mejoras en diferentes áreas de gestión de las empresas, para que puedan enfrentar de forma adecuada diversas situaciones que puedan afectarlas como crecimiento, incidentes, entre otros con una debida planificación."
+        },
+        {
+            "id": 3,
+            "image": "./images/icon-seguridad.png",
+            "title": "Soluciones tecnológicas de seguridad",
+            "content": "La información de las empresas es uno de los activos más valorados; el velar por la confidencialidad, disponibilidad y la integridad hoy es a mayor prioridad para las empresas. con diversos servicios y soluciones podemos ayudar a resolver las problemáticas que se presenten y mitigar las brechas de seguridad."
+        }
+    ]
+}
